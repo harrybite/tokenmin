@@ -1,0 +1,17 @@
+syntax = "proto3";
+package tokenmin.tokenmin;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+import "tokenmin/tokenmin/params.proto";
+
+option go_package = "tokenmin/x/tokenmin/types";
+
+// GenesisState defines the tokenmin module's genesis state.
+message GenesisState {
+  // params defines all the parameters of the module.
+  Params params = 1 [
+    (gogoproto.nullable) = false,
+    (amino.dont_omitempty) = true
+  ];
+}

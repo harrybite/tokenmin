@@ -31,7 +31,7 @@ import (
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 
-	"tokenmin/app"
+	"github.com/harrybite/tokenmin/app"
 )
 
 const (

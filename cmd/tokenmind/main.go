@@ -6,8 +6,8 @@ import (
 
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 
-	"tokenmin/app"
-	"tokenmin/cmd/tokenmind/cmd"
+	"github.com/harrybite/tokenmin/app"
+	"github.com/harrybite/tokenmin/cmd/tokenmind/cmd"
 )
 
 func main() {

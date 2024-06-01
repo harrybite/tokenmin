@@ -24,7 +24,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"tokenmin/app"
+	"github.com/harrybite/tokenmin/app"
 )
 
 // NewRootCmd creates a new root command for tokenmind. It is called once in the main function.
